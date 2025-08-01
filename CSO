@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>지출보고서 제출 기한 연장 안내</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Apple SD Gothic Neo', '맑은 고딕', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .title {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      border-left: 6px solid #3498db;
+      padding-left: 12px;
+    }
+
+    .content {
+      font-size: 1.05em;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    .contact {
+      margin-top: 30px;
+      font-weight: 500;
+      color: #2d3436;
+      background-color: #ecf0f1;
+      padding: 15px;
+      border-left: 4px solid #2980b9;
+      border-radius: 6px;
+    }
+
+    .image-container {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+
+    .logo-container {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .logo-container img {
+      max-width: 180px;
+      height: auto;
+      opacity: 0.9;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="title">지출보고서 제출 기한 연장 안내</div>
+    
+    <div class="content">
+      지출보고서 자료 제출 기한이 <strong style="color:#e74c3c;">2025년 8월 22일(금)</strong>까지 연장되었습니다.<br><br>
+      첨부된 이미지를 확인하시고, 연장된 기한 내에 꼭 제출해 주시기 바랍니다.
+    </div>
+
+    <div class="contact">
+      📌 작성 방법 및 기타 문의사항은<br>
+      한화트레이딩 법인톡 또는 ☎ 02-2663-8753 으로 연락주시기 바랍니다.
+    </div>
+
+    <div class="image-container">
+      <img src="지출보고.png" alt="지출보고서 제출 기한 연장 안내 이미지">
+    </div>
+
+    <div class="logo-container">
+      <img src="한화 로고 (누끼딴거).png" alt="Hanwha Trading 로고">
+    </div>
+  </div>
+
+</body>
+</html>
